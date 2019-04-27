@@ -1,0 +1,63 @@
+* {
+  box-sizing: border-box;
+}
+header {
+  text-align: left;
+  overflow: auto;
+  padding-top: 60px;
+  line-height: 1.5;
+}
+body{
+    font-family: "Time New Roman", sans-serif;
+    background: url('surface.jpg');
+    background-size: cover;
+    padding: 0;
+    text-align: left;
+    color: #222;
+    margin:0;
+}
+a {
+  text-decoration: none;
+  color: #0499ff;
+}
+a:hover {
+  color: #6633ff;
+}
+.main-nav {
+  width: 100%;
+  background: black;
+  min-height: 30px;
+  padding: 10px;
+  position: absolute;
+  text-align: center;
+}
+.nav {
+  display: flex;
+  justify-content: space-around;
+  font-weight: 700;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+.nav li {
+  padding: 5px 10px 10px 10px;
+}
+.tag {
+  color: black;
+  padding: 6px;
+  border-radius: 10px;
+  display: table;
+  margin: left auto;
+}
+h3 {
+  background-color: #efefef;
+  color: black;
+  padding: 10px;
+  border-radius: 5px;
+
+  max-width: 1000px;
+  margin: 10px auto;
+}
+#firstname {
+
+}

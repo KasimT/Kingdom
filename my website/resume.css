@@ -1,0 +1,140 @@
+* {
+  box-sizing: border-box;
+}
+header {
+  text-align: center;
+  overflow: auto;
+  padding-top: 60px;
+}
+header {
+  line-height: 1.5;
+}
+body{
+    font-family: "Time New Roman", sans-serif;
+    background: url('surface.jpg') no-repeat top center ;
+    background-size: cover;
+    padding: 0;
+    text-align: left;
+    color: #222;
+    margin:0;
+}
+a {
+  text-decoration: none;
+  color: #0499ff;
+}
+a:hover {
+  color: #6633ff;
+}
+
+.main-nav {
+  width: 100%;
+  background: black;
+  min-height: 30px;
+  padding: 10px;
+  position: fixed;
+  text-align: left;
+}
+.nav {
+  display: flex;
+  justify-content: space-around;
+  font-weight: 700;
+  list-style-type: none;
+  margin: 0 auto;
+  padding: 0;
+}
+.nav li {
+  padding: 5px 10px 10px 10px;
+}
+.nav a {
+  transition: all .5s;
+}
+.nav a:hover {
+  color: white
+}
+.tag {
+  color: black;
+  padding: 6px;
+  border-radius: 100px;
+  display: table;
+  margin: left auto;
+}
+h1{
+  background-color: #efefef;
+  color: black;
+  padding: 10px;
+  border-radius: 5px;
+  display: table;
+  margin: 10px auto;
+}
+
+.section {
+  text-transform: uppercase;
+  margin: 30px;
+  padding: 20px 40px 40px;
+  max-width: 1000px;
+  text-align: left;
+  background-color: grey ;
+}
+.section:hover {
+  border-color: none;
+}
+.Section-title {
+  text-transform: uppercase;
+}
+h4{
+  font-family: "Time New Roman";
+  padding: 0;
+  text-align: center;
+  color: black, bold;
+  margin: 0;
+}
+footer {
+  width: 100%;
+  min-height: 30px;
+  padding: 20px 0 40px 20px;
+}
+
+footer .copyright {
+  top: -8px;
+  margin-right: 20px;
+  font-size: 1em;
+  color: black, bold;
+}
+
+footer ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+footer ul li {
+  display: inline-block;
+}
+.copyright{
+  font-family: "Time New Roman";
+  padding: 0;
+  text-align: center;
+  color: black, bold;
+  margin: 0;
+}
+a.social {
+  display: inline-block;
+  text-indent: -9999px;
+  margin-left: 5px;
+  width: 30px;
+  height: 30px;
+  background-size: 30px 30px;
+  image-align: center;
+}
+a.twitter {
+  background-image: url('twitter.jpg');
+}
+a.linkedin {
+  background-image: url('linkedin.jpg');
+}
+a.github {
+  background-image: url('github.jpg');
+}
+a.social:hover {
+  opacity: 1;
+}

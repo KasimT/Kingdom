@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js">
+  </script>
+  <meta charset="utf-8">
+  <title>Kasim Tiba's Contacts</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="contact.css">
+  <link href="https://fonts.googleapis.com/css?family=Muli%7CRoboto:400,300,500,700,900" rel="stylesheet">
+</head>
+<body>
+  <div class="main-nav">
+      <ul class="nav">
+        <li class="name">Welcome!</li>
+        <li><a href="profile.html">Home</a></li>
+        <li><a href="resume.html">About</a></li>
+        <li><a href="#">Project</a></li>
+        <li><a href="index.html">Contacts</a></li>
+      </ul>
+  </div>
+  <header>
+    <h3>You Can contact me through social media or by email or github</h3>
+    <form>
+      First name:<br>
+      <input type="text" id="firstname"><br>
+      Last name:<br>
+      <input type="text" id="lastname">
+      <input type="submit"><br>
+    </form>
+    <div>
+      <h1 id="name" style="color: white">
+      </h1>
+
+    </div>
+  </header>
+</body>
+<script>
+  $(document).ready(function(){
+    $("form").submit(function(){
+      console.log("kasim");
+      $("#name").append($("#firstname").val() + " "  + $("#lastname").val());
+      return false;
+    })
+  })
+</script>
+</html>
